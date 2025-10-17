@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a5eba5;
+  color: #222;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+header {
+  background-color: #2a7a2e;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.intro {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  background-color: #eaf7ea;
+  padding: 1rem;
+  border-left: 4px solid #2a7a2e;
+  border-right: 4px solid #2a7a2e;
+  border-radius: 4px;
+}
+
+.reasons article {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 5px solid #2a7a2e;
+  border-right: 4px solid #2a7a2e;
+  background-color: #f0fdf0;
+  border-radius: 4px;
+}
+
+.reasons h2 {
+  color: #256626;
+  margin-bottom: 0.5rem;
+}
+
+.image-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-section figcaption {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #666;
+  
+}
